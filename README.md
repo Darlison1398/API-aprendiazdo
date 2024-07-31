@@ -1,14 +1,15 @@
 Para rodar essa aplicação em sua máquina, siga os seguintes passos:
 
-1° - Navegue até a pasta: cadastro-usuario\src\main\resources\application.properties
+1° - Navegue até a pasta: aprendizado\src\main\resources\application.properties
 
 2° - Nessa parte: spring.datasource.password="", você vai colocar a senha do seu Banco PostgreSQL, mas sem as aspas
 
-3° - Acesse o pgAdmin e crie um banco com esse nome: cadastro-usuario
+3° - Acesse o pgAdmin e crie um banco com esse nome: exemplo-aprendizado
 
       ---  ATÊNÇÃO: ---
       não é necessário criar a tabela e nem os atributos, pois isso vai ser criado automaticamente
       quando você rodar a aplicação
+      
 4° - Rode o projeto
 
 5° - Use uma ferramenta como o Postman ou Insomnia para testar as requisições Http
